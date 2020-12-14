@@ -69,7 +69,6 @@ while not found:
         start += 1
         end = start + 1
 
-print(start, end, found)
 print(f"Found contiguous set. from index {start} to {end}")
 contiguous_set = numbers[start : end + 1]
 print(f"{contiguous_set=}")
